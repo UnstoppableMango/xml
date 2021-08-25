@@ -1,4 +1,4 @@
-﻿using JetBrains.Annotations;
+using JetBrains.Annotations;
 
 namespace UnMango.Xml
 {
@@ -8,7 +8,7 @@ namespace UnMango.Xml
     [PublicAPI]
     public sealed record XmlSerializerOptions
     {
-        internal static readonly XmlSerializerOptions DefaultOptions = new();
+        public static readonly XmlSerializerOptions DefaultOptions = new();
 
         /// <summary>
         /// Initializes a new instance of a <see cref="XmlSerializerOptions"/>.
